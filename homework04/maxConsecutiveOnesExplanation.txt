@@ -1,0 +1,2 @@
+a.) I found the bug by analyzing why those specifica cases were different from the ones that were working and realized that they all had the max was at the end of the string. This suggested that there may be an error with the iteration through the array and making it all the way though. After looking at the code I realized that it was exiting the loop before it got throught the entire array. 
+b.) It can be fixed by changing the for loop to i<= instead of i<.
